@@ -18,7 +18,8 @@
   "dependencies": {
     "bluebird": "^3.4.6",
     "denali": "0.0.20",
-    "lodash": "^4.16.4"
+    "lodash": "^4.17.4",
+    "mongoose": "^4.8.2"
   },
   "devDependencies": {
     "ava": "^0.18.1",
