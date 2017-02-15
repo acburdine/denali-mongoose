@@ -1,4 +1,5 @@
-import { Builder } from 'denali';
+const Builder = require('denali').Builder;
 
-export default class DenaliMongoBuilder extends Builder {
-}
+module.exports = class DenaliMongooseBuilder extends Builder {
+
+};

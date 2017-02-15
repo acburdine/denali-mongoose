@@ -1,4 +1,4 @@
-# Denali Mongo
+# Denali Mongoose
 
 An awesome addon built on the Denali framework.
 

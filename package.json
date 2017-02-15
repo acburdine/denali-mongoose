@@ -1,5 +1,5 @@
 {
-  "name": "denali-mongo",
+  "name": "denali-mongoose",
   "version": "0.0.1",
   "scripts": {
     "test": "denali test",
@@ -9,7 +9,9 @@
   "keywords": [
     "denali",
     "denali-addon",
-    "addon"
+    "addon",
+    "mongodb",
+    "mongoose"
   ],
   "main": "app/addon.js",
   "license": "MIT",
@@ -19,20 +21,20 @@
     "lodash": "^4.16.4"
   },
   "devDependencies": {
-    "ava": "^0.17.0",
+    "ava": "^0.18.1",
     "babel-eslint": "^7.1.1",
     "babel-plugin-syntax-async-functions": "^6.13.0",
     "babel-plugin-syntax-trailing-function-commas": "^6.13.0",
     "babel-plugin-transform-async-to-generator": "^6.16.0",
-    "babel-plugin-transform-class-properties": "^6.19.0",
-    "babel-plugin-transform-es2015-destructuring": "^6.19.0",
-    "babel-plugin-transform-es2015-modules-commonjs": "^6.18.0",
+    "babel-plugin-transform-class-properties": "^6.23.0",
+    "babel-plugin-transform-es2015-destructuring": "^6.23.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.23.0",
     "babel-plugin-transform-es2015-shorthand-properties": "^6.18.0",
     "babel-plugin-transform-es2015-spread": "^6.8.0",
     "babel-plugin-transform-es2015-template-literals": "^6.8.0",
     "babel-plugin-transform-exponentiation-operator": "^6.8.0",
     "babel-plugin-transform-regenerator": "^6.16.1",
-    "babel-plugin-transform-runtime": "^6.15.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
     "denali-babel": "0.0.x",
     "denali-eslint": "0.0.x",
     "eslint-config-denali": "^1.1.0",
